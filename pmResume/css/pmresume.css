@@ -12,31 +12,33 @@ body {
 	}
 	.container {
 		background:white;
-		border:2px solid red;
-		border-radius: 10px;
-		margin:50px 100px;
+		margin: 0 auto;
+	}
+	.container img{
+		margin:0 auto;
 	}
 	h1 {
 		color: firebrick;
 		font-family: "Arial Black";
 		margin-top: 20px;
-		font-size: 32px;
-		line-height: 36px;
+		font-size: 42px;
+		line-height: 46px;
 	}
 	h2 {
 		color: red;
-		font-size 16px;
-		line-height: 22px;
+		font-size: 30px;
+		line-height: 36px;
 		font-family: "Verdana";
 		font-weight: bold;
-		margin-top:20px;
+		margin:20px 0;
 	}
 
 	header {
 		text-align: center;
-		margin-top: 10px;
-		background-repeat: none;
-		background-image: url("peppers.png");
+		background:#AB1C11;
+	}
+	header img {
+		margin:0 auto;
 	}
 	p {
 		line-height:22px;
@@ -60,19 +62,33 @@ body {
 	img {
 		margin:5px;
 		display: block;
-		align-content:center;
 	}
 	article {
 		float:left;
-		margin-left:20px;
 		margin-top:10px;
+		margin-right:5%; 
+		margin-left:5%;		
+		margin-bottom:20px;
 		font-family:"arial";
+		width:200px;
+		text-align: left;
 	}
-	footer{
-		margin-top:20px;
+
+	.articleContainer {
+		margin:0 auto;
+		text-align: center;
+		font-family:Verdana;
+		font-size:20px;
+		line-height: 28px;
+	}
+	footer {
+		margin:0 auto;
 		background: black;
-		border-radius:25px;
+		border-bottom-right-radius: 50px;
 	}
-	.clearBoth{
+	.footerContainer {
+		margin: 50px 100px;
+	}
+	.clearBoth {
 		clear:both;
 	}
