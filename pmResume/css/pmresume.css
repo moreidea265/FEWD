@@ -33,6 +33,10 @@ body {
 		font-weight: bold;
 		margin:20px 0;
 	}
+	table{
+		margin:0 auto;
+		border:1px solid black;
+	}
 
 	header {
 		text-align: center;
@@ -41,9 +45,13 @@ body {
 	header img {
 		margin:0 auto;
 	}
+	.subHead {
+		background: white;
+	}
 	p {
 		line-height:22px;
 		margin-top:10px;
+		margin-bottom:10px;
 	}
 	a {
 		color:red;
@@ -59,6 +67,15 @@ body {
 	}
 	li a{
 		color: orange;
+	}
+	.breadcrumb li {
+	    display: inline;
+	}
+	.breadcrumb li+li:before {
+	    content:"» ";
+	}
+	.current a{
+		color:green;
 	}
 	img {
 		margin:5px;
