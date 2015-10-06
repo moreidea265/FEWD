@@ -41,6 +41,7 @@ body {
 	header {
 		text-align: center;
 		background:#AB1C11;
+		border-bottom-right-radius: 45px; 
 	}
 	header img {
 		margin:0 auto;
@@ -70,12 +71,15 @@ body {
 	}
 	.breadcrumb li {
 	    display: inline;
+	    background: green;
+	    height: 20px;
+	    padding:20px;
 	}
 	.breadcrumb li+li:before {
 	    content:"» ";
 	}
 	.current a{
-		color:green;
+		color:black;
 	}
 	img {
 		margin:5px;
