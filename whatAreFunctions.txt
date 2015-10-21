@@ -1,0 +1,37 @@
+function 1
+standalone like change farenheight to celcius
+
+function 2
+acts on objects = method
+
+
+object is a data types
+
+window.alert is a method operating on the window objects
+inside the () is the argument
+
+function tieMyShoeLace () {
+	this is function body in here
+	
+}named function
+
+calling a function
+think of parentheses
+
+makeASalad()
+
+function makeASalad (lettuce, dressing, tomatoes, cheese, bacon, nut)placeholder (parameter, placeholders) {
+	1.) wash the lettuce
+	2.)	add the dressing
+	3.)	add tomatoes to the lettuce
+	4.) grate the cheese
+	5.) sprinkle the nuts
+	6.) add bacon
+	7.) toss together and serve the salad
+
+}
+with parameters
+makeASaladmakeASalad(romain, cesar, roma, parmasean, maple, walnut) arguments
+
+no parameters 
+makeASalad()
